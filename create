@@ -1,0 +1,58 @@
+#!/bin/bash
+
+echo -n "문제 번호 입력: "
+read num
+
+echo -n "사용할 언어 입력 (java / c / python) [기본: java]: "
+read lang
+
+if [ -z "$lang" ]; then
+  lang="java"
+fi
+
+case "$lang" in
+  java)
+    file="java/Main${num}.java"
+    cat <<EOF > $file
+import java.io.*;
+import java.util.*;
+
+public class Main${num} {
+    public static void main(String[] args) throws Exception {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st;
+        StringBuilder sb;
+
+    }
+}
+EOF
+    ;;
+
+  c)
+    file="c/Main${num}.c"
+    cat <<EOF > $file
+#include <stdio.h>
+
+int main() {
+    
+    return 0;
+}
+EOF
+    ;;
+
+  python)
+    file="python/Main${num}.py"
+    cat <<EOF > $file
+import sys
+input = sys.stdin.readline
+
+EOF
+    ;;
+
+  *)
+    echo "지원하지 않는 언어다."
+    exit 1
+    ;;
+esac
+
+echo "생성 완료: $file"
