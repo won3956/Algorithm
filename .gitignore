@@ -1,0 +1,13 @@
+# VSCode
+.vscode/
+tempCodeRunnerFile.java
+
+# Code Runner
+tempcoderunner*
+
+# Java
+*.class
+
+# OS
+.DS_Store
+
