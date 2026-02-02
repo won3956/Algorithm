@@ -1,5 +1,7 @@
 #!/bin/bash
 
+BASE_DIR=$(pwd)
+
 echo -n "문제 번호 입력: "
 read num
 
@@ -12,8 +14,9 @@ fi
 
 case "$lang" in
   java)
-    file="java/Main${num}.java"
-    cat <<EOF > $file
+    mkdir -p "$BASE_DIR/java"
+    file="$BASE_DIR/java/Main${num}.java"
+    cat <<EOF > "$file"
 import java.io.*;
 import java.util.*;
 
@@ -29,20 +32,22 @@ EOF
     ;;
 
   c)
-    file="c/Main${num}.c"
-    cat <<EOF > $file
+    mkdir -p "$BASE_DIR/c"
+    file="$BASE_DIR/c/Main${num}.c"
+    cat <<EOF > "$file"
 #include <stdio.h>
 
 int main() {
-    
+
     return 0;
 }
 EOF
     ;;
 
   python)
-    file="python/Main${num}.py"
-    cat <<EOF > $file
+    mkdir -p "$BASE_DIR/python"
+    file="$BASE_DIR/python/Main${num}.py"
+    cat <<EOF > "$file"
 import sys
 input = sys.stdin.readline
 
