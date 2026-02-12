@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// 비트마스크
 public class Main11723 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
