@@ -4,7 +4,6 @@ import java.util.*;
 public class Main9012 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
         StringBuilder sb = new StringBuilder();
 
         int T = Integer.parseInt(br.readLine());

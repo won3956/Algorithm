@@ -1,11 +1,7 @@
 import java.io.*;
-import java.util.*;
-
 public class Main10773 {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-        StringBuilder sb;
 
         int K = Integer.parseInt(br.readLine());
         int[] arr = new int[K];
