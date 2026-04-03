@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 // bottom up 방식
 public class Main9095_2 {
     public static void main(String[] args) throws Exception {

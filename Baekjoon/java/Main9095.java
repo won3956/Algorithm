@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 // 1,2,3 의 합으로 숫자 나타내기. dp > top-down 방식
 public class Main9095 {
     public static Integer dp[] = new Integer[12];
