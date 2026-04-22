@@ -59,4 +59,4 @@ EOF
 esac
 
 echo "생성 완료: $file"
-open "$file"
+code "$file"
