@@ -1,0 +1,78 @@
+import java.util.*;
+import java.io.*;
+
+class Solution
+{
+  static int N, M, result;
+  static Integer[][] arr;
+  static BufferedReader br;
+  static int[] dr = {-1, 1, 0, 0};
+  static int[] dc = {0, 0, -1, 1};
+  static int[] drx = {-1, -1, 1, 1};
+  static int[] dcx = {-1, 1, -1, 1};
+	public static void main(String args[]) throws Exception
+	{
+    br = new BufferedReader(new InputStreamReader(System.in));
+    int T = Integer.parseInt(br.readLine());
+    StringTokenizer st;
+    
+
+		for(int test_case = 1; test_case <= T; test_case++)
+		{
+      st = new StringTokenizer(br.readLine());
+      N = Integer.parseInt(st.nextToken());
+      M = Integer.parseInt(st.nextToken());
+      result = 0;
+      arr = new Integer[N][N];
+      inputarr();
+      catcht();
+      catchx();
+      System.out.println("#" + test_case + " " + result);
+		}
+	}
+
+  public static void inputarr() throws IOException{
+    for(int i = 0; i < N; i++){
+      StringTokenizer st = new StringTokenizer(br.readLine());
+      for(int j = 0; j < N; j++){
+        arr[i][j] = Integer.parseInt(st.nextToken());
+      }
+    }
+  }
+
+  public static void catcht(){
+    for(int r = 0; r < N; r++){
+      for(int c = 0; c < N; c++){
+        int sum = arr[r][c];
+        for(int i = 0; i < 4; i++){
+          for(int j = 1; j < M; j++){
+            int nr = r + dr[i] * j;
+            int nc = c + dc[i] * j;
+            if(nr >= 0 && nr < N && nc >= 0 && nc < N){
+              sum += arr[nr][nc];
+            }
+          }
+        }
+        result = Math.max(result, sum);
+      }
+    }
+  }
+
+  public static void catchx(){
+    for(int r = 0; r < N; r++){
+      for(int c = 0; c < N; c++){
+        int sum = arr[r][c];
+        for(int i = 0; i < 4; i++){
+          for(int j = 1; j < M; j++){
+            int nr = r + drx[i] * j;
+            int nc = c + dcx[i] * j;
+            if(nr >= 0 && nr < N && nc >= 0 && nc < N){
+              sum += arr[nr][nc];
+            }
+          }
+        }
+        result = Math.max(result, sum);
+      }
+    }
+  }
+}
