@@ -1,23 +1,23 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayDeque;
-import java.util.Queue;
 
 public class Solution {
-
 	static int[][] arr;
 	static boolean[][] visited;
 	static int sr, sc;
 	static int[] dr = {-1, 1, 0, 0};
 	static int[] dc = {0, 0, -1, 1};
 
+	static int found;
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int T = 10;
-		for(int test_case=1; test_case<=T; test_case++) {
+		for (int test_case = 1; test_case <= T; test_case++) {
 			br.readLine();
 			arr = new int[16][16];
+			found = 0;
 			visited = new boolean[16][16];
 			for(int i = 0; i < 16; i++) {
 				String input = br.readLine();
@@ -28,31 +28,27 @@ public class Solution {
 					}
 				}
 			}
-			System.out.println("#"+ test_case+" "+bfs());
+			dfs(sr, sc);
+			System.out.println("#"+ test_case+" "+found);
 		}
 	}
 
-	public static int bfs() {
-		Queue<int[]> que = new ArrayDeque<>();
-		visited[sr][sc] = true;
-		que.offer(new int[] {sr, sc});
-		
-		while(!que.isEmpty()) {
-			int[] node = que.poll();
-			for(int idx = 0; idx < 4; idx++) {
-				int nr = node[0] + dr[idx];
-				int nc = node[1] + dc[idx];
-				if(!inrange(nr, nc)) continue;
-				
-				if(arr[nr][nc]==0&&!visited[nr][nc]) {
-					que.offer(new int[] {nr, nc});
-					visited[nr][nc] = true;
-				}else if(arr[nr][nc]==3) {
-					return 1;
-				}
-			}
+	private static void dfs(int r, int c) {
+		visited[r][c] = true;
+		if(arr[r][c]==3)	{
+			found = 1;
+			return;
 		}
-		return 0;   // 도착 못함
+		
+		for (int idx = 0; idx < 4; idx++) {
+			int nr = r + dr[idx];
+			int nc = c + dc[idx];
+			if(!inrange(nr, nc)) continue;
+			if(visited[nr][nc]) continue;
+			if(arr[nr][nc]==1) continue;
+			dfs(nr, nc);
+			if(found==1) return;
+		}
 	}
 	public static boolean inrange(int r, int c) {
 		return r>=0&&r<16&&c>=0&&c<16;
