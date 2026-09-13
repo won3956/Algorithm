@@ -1,4 +1,4 @@
-package com.ssafy.어항물채우기;
+package com.ssafy.어항;
 import java.util.Scanner;
 
 class Solution {
