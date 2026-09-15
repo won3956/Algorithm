@@ -1,5 +1,7 @@
 package com.ssafy.어항;
 
+import java.util.Arrays;
+
 public class UserSolution {
 	int N; // 어항 개수 <=20
 	int width; // 어항 가로 <= 500
@@ -27,9 +29,10 @@ public class UserSolution {
 			Tank tank = new Tank(mIDs[i], mLengths[i], mUpShapes[i]);
 			tanks[i] = tank;
 		}
+		Arrays.sort(tanks, (a,b)-> Integer.compare(a.id, b.id));
 	}
 
-	// 구조물들을 설치할 수 있는 위치들의 수를 반 (우선순위 고려 x)
+	// 구조물들을 설치할 수 있는 위치들의 수를 반환 (우선순위 고려 x)
 	public int checkStructures(int mLengths[], int mUpShapes[], int mDownShapes[]) {
 		int sum = 0;
 
@@ -43,14 +46,14 @@ public class UserSolution {
 					if (tank.lenghts[i + j] + mLengths[j] > height) // 높이 초과 확인
 						continue middle;
 				}
-				int as = tank.lenghts[i];
-				int ae = as + mLengths[0];
-				int bs = tank.lenghts[i + 1];
-				int be = bs + mLengths[1];
-				int cs = tank.lenghts[i + 2];
-				int ce = cs + mLengths[2];
+				int[] start = new int[3];
+				int[] end = new int[3];
+				for (int k = 0; k < 3; k++) {
+					start[k] = tank.lenghts[i + k];
+					end[k] = start[k] + mLengths[k];
+				}
 
-				if (!isAble(as, ae, bs, be, cs, ce))
+				if (!isAble(start, end))
 					continue;
 
 				sum++;
@@ -85,7 +88,7 @@ public class UserSolution {
 						tank.lenghts[i + k] = end[k];
 						tank.upShapes[i + k] = mUpShapes[k];
 					}
-					return tank.id * 1000 + i;
+					return tank.id * 1000 + i + 1;
 				}
 			}
 		}
@@ -97,10 +100,60 @@ public class UserSolution {
 	public Solution.Result pourIn(int mWater) {
 		Solution.Result ret = new Solution.Result();
 		ret.ID = ret.height = ret.used = 0;
+		
+		for (Tank tank : tanks) {
+			int start = 1;
+			int end = height;
+			int bestHeight = 0;
+			while(start <= end) { //파라메트릭 서치
+				int mid = (start + end) / 2;
+				
+				int used = getWater(tank, mid);
+				
+				if(used <= mWater) {
+					start = mid + 1;
+				}else {
+					end = mid - 1;
+				}
+			}
+			
+			if(bestHeight == 0) continue;
+			
+			int used = getWater(tank, bestHeight);
+			
+			if(bestHeight > ret.height) {
+				ret.ID = tank.id;
+				ret.height = bestHeight;
+				ret.used = used;
+			}else if(bestHeight == ret.height) { // 높이가 같을 때는 물을 더 많이 사용하는 어항
+				if(ret.used < used) {
+					ret.ID = tank.id;
+					ret.height = bestHeight;
+					ret.used = used;
+				}else if(ret.used == used){ //사용하는 양까지 같으면 ID 비교
+					if(ret.ID > tank.id) {
+						ret.ID = tank.id;
+						ret.height = bestHeight;
+						ret.used = used;
+					}
+				}
+			}
+		}
 		return ret;
 	}
 
-	public static boolean isAble(int[] start, int[] end) {
+	public boolean isAble(int[] start, int[] end) {
 		return start[0] < end[1] && end[0] > start[1] && start[1] < end[2] && end[1] > start[2];
+	}
+	
+	public int getWater(Tank tank, int targetHeight) {
+		int used = 0;
+		for (int i = 0; i < width; i++) {
+			if(tank.lenghts[i] < targetHeight) {
+				used += targetHeight - tank.lenghts[i];
+			}
+		}
+		
+		return used;
 	}
 }

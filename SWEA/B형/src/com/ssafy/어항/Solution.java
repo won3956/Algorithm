@@ -94,7 +94,11 @@ class Solution {
                     ans_used = sc.nextInt();
                 }
                 if (ans != 0 && (ans != ret.ID || ans_height != ret.height || ans_used != ret.used)) {
-                    ok = false;
+
+                    System.out.print(ret.ID);
+                    System.out.print(ret.height);
+                    System.out.print(ret.used);
+                	ok = false;
                 } else if (ans == 0 && ret.ID != 0) {
                     ok = false;
                 }
