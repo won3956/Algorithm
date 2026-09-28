@@ -7,6 +7,5 @@
 	</classpathentry>
 	<classpathentry kind="src" path="Baekjoon/java"/>
 	<classpathentry kind="src" path="SWEA/B형/src"/>
-	<classpathentry kind="src" path="SWEA/java"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
