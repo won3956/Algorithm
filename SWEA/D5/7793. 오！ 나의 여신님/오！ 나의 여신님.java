@@ -16,7 +16,8 @@ import java.util.*;
  * 
  * 악마가 둘 이상일 수 있음, 독이 여신의 자리에는 갈 수 없음
  **** 수연이가 있던 자리에 독이 퍼지는 경우도 고려 => 큐에서 꺼내서 4방향 확인할 때 [nr][nc]의 좌우상하에 독이 있는지 확인
- * 
+ *     => 하려 했으나 독을 먼저 퍼뜨리면 nnr, nnc 고려 할 필요없음.
+ *
  * [제약사항]
  * (2 ≤ N, M ≤ 50)
  * 
@@ -79,10 +80,10 @@ public class Solution {
 		
 		while(!que.isEmpty()) {
 			time++;
+			corrosion();
 			int size = que.size();
 			for (int turn = 0; turn < size; turn++) {
 				int[] cur = que.poll();
-				target:
 				for (int i = 0; i < 4; i++) {
 					int nr = cur[0] + dr[i];
 					int nc = cur[1] + dc[i];
@@ -94,18 +95,10 @@ public class Solution {
 					}
 					if(visited[nr][nc]) continue;
 					if(map[nr][nc]!='.') continue;
-					// 한 턴 뒤 부식이 될 자리인지 확인
-					for (int j = 0; j < 4; j++) {
-						int nnr = nr + dr[j];
-						int nnc = nc + dc[j];
-						if(!inRange(nnr, nnc)) continue;
-						if(map[nnr][nnc] == '*') continue target;
-					}
 					que.offer(new int[] {nr, nc});
 					visited[nr][nc] = true;
 				}
 			}
-			corrosion(); // 수연이가 1칸 이동 후 부식 진행
 		}
 		result = "GAME OVER";
 		return;
