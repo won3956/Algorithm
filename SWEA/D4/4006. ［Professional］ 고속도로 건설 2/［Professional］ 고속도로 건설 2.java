@@ -37,10 +37,14 @@ public class Solution {
 			Arrays.sort(edges, (a, b) -> Integer.compare(a.cost, b.cost));
 			makeSet();
 
+			int edgeCnt = 0;
+			
 			for (Edge edge : edges) {
 				if (!union(edge.from, edge.to))
 					continue;
 				result += edge.cost;
+				edgeCnt++;
+				if(edgeCnt == N - 1) break;
 			}
 
 			System.out.println("#" + test_case + " " + result);
