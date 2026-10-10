@@ -13,3 +13,10 @@ tempcoderunner*
 
 /.metadata/
 /bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Build
+out/
