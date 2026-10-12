@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
@@ -22,7 +23,6 @@ public class Solution {
 		}
 	}
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		
@@ -34,6 +34,7 @@ public class Solution {
 			parent = new int[N+1];
 			x = new int[N];
 			y = new int[N];
+			
 			st = new StringTokenizer(br.readLine());
 			for(int i = 0; i < N; i ++) {
 				x[i] = Integer.parseInt(st.nextToken());
@@ -42,11 +43,12 @@ public class Solution {
 			for(int i = 0; i < N; i ++) {
 				y[i] = Integer.parseInt(st.nextToken());
 			}
-			for(int i=1; i<N+1; i++) {
-				parent[i] = i;
-			}
+			
+			makeSet();
+			
 			E = Double.parseDouble(br.readLine());
-			for(int a = 0; a < N; a++) {	//간선 객체 생성
+			
+			for(int a = 0; a < N; a++) {	
 				for(int b = a+1; b < N; b++) {
 					int dx = x[a]- x[b];
 					int dy = y[a]- y[b];
@@ -60,25 +62,36 @@ public class Solution {
 			
 			int count = 0;
 			for(Edge e: edges) {
-				int rootA = find(e.a);
-				int rootB = find(e.b);
 				
-				if(rootA!=rootB) {
-					count++;
-					result += e.cost;
-					union(rootA, rootB);
-				}
-				if(count == N-1)	break;
+				if(!union(e)) continue;
+				count++;
+				result += e.cost;
+				if(count == N-1) break;
 			}
 			System.out.printf("#%d %.0f\n", test_case, result);
 		}
 	}
-	public static void union(int rootA, int rootB) {
-		parent[rootA] = rootB;
+	public static void makeSet() {
+		Arrays.fill(parent, -1);
+	}
+	public static boolean union(Edge e) {
+		int rootA = find(e.a);
+		int rootB = find(e.b);
+		
+		if(rootA == rootB) return false;
+		
+		if(parent[rootA] <= parent[rootB]) {
+			parent[rootA] += parent[rootB];
+			parent[rootB] = rootA;
+		}else {
+			parent[rootB] += parent[rootA];
+			parent[rootA] = rootB;
+		}
+		return true;
 	}
 	public static int find(int a) {
-		if(parent[a]==a)	return a;
-		return find(parent[a]);
+		if(parent[a] < 0)	return a;
+		return parent[a] = find(parent[a]);
 	}
 
 }
