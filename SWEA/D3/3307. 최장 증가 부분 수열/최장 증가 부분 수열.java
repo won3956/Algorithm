@@ -24,8 +24,7 @@ public class Solution {
 					}
 				}
 			}
-			Arrays.sort(dp);
-			System.out.println("#"+test_case+" "+dp[N]);
+			System.out.println("#"+test_case+" "+Arrays.stream(dp).max().getAsInt());
 		}
 	}
 }
