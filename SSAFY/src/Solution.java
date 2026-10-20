@@ -1,78 +1,99 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
-	static class Edge {
-		int from, to, cost;
+/*
+ * [제약사항]
+ * 성능 P는 10이상 500이하의 짝수이다
+ * 초기 위치(0초)부터 충전을 할 수 있다.
+ * 같은 위치에 2개 이상의 BC가 설치된 경우는 없다. 
+ * 그러나 사용자A, B가 동시에 같은 위치로 이동할 수는 있다
+ */
 
-		public Edge(int from, int to, int cost) {
-			this.from = from;
-			this.to = to;
-			this.cost = cost;
+public class Solution {
+	static int M, A, result;
+	static int[] pathA, pathB;
+	static List<BC> charges;
+	static int rowA, colA, rowB, colB;
+	static int[] dr = {0, -1, 0, 1, 0};
+	static int[] dc = {0, 0, 1, 0, -1};
+
+	static class BC {
+		int row;
+		int col;
+		int C;
+		int P;
+
+		public BC(int row, int col, int C, int P) {
+			this.row = row;
+			this.col = col;
+			this.C = C;
+			this.P = P;
+		}
+		
+		public boolean canCharge(int userRow, int userCol) {
+			return C >= (Math.abs(row - userRow) + Math.abs(col - userCol));
 		}
 	}
-
-	static Edge[] edges;
-	static int[] parents;
-	static int N, M, result;
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
-		StringBuilder sb = new StringBuilder();
 		int T = Integer.parseInt(br.readLine());
 		for (int test_case = 1; test_case <= T; test_case++) {
-			N = Integer.parseInt(br.readLine()); // 정점
-			M = Integer.parseInt(br.readLine()); // 간선
-			edges = new Edge[M];
-			result = 0;
+			st = new StringTokenizer(br.readLine());
+			M = Integer.parseInt(st.nextToken());
+			A = Integer.parseInt(st.nextToken());
+			pathA = new int[M+1];
+			pathB = new int[M+1];
+			charges = new ArrayList<>();
+			rowA = 1;
+			colA = 1;
+			rowB = 10;
+			colB = 10;
 
-			for (int i = 0; i < M; i++) {
+			st = new StringTokenizer(br.readLine());
+			for (int i = 1; i <= M; i++) {
+				pathA[i] = Integer.parseInt(st.nextToken());
+			}
+			st = new StringTokenizer(br.readLine());
+			for (int i = 1; i <= M; i++) {
+				pathB[i] = Integer.parseInt(st.nextToken());
+			}
+
+			for (int i = 0; i < A; i++) {
 				st = new StringTokenizer(br.readLine());
-				int s = Integer.parseInt(st.nextToken());
-				int e = Integer.parseInt(st.nextToken());
-				int c = Integer.parseInt(st.nextToken());
-				edges[i] = new Edge(s, e, c);
+				int row = Integer.parseInt(st.nextToken());
+				int col = Integer.parseInt(st.nextToken());
+				int C = Integer.parseInt(st.nextToken());
+				int P = Integer.parseInt(st.nextToken());
+				charges.add(new BC(row, col, C, P));
 			}
 
-			Arrays.sort(edges, (a, b) -> Integer.compare(a.cost, b.cost));
-			makeSet();
-
-			int edgeCnt = 0;
+			System.out.println("#" + test_case + " " + result);
+		}
+	}
+	public static void simul() {
+		
+		for (int i = 0; i <= M; i++) {
 			
-			for (Edge edge : edges) {
-				if (!union(edge.from, edge.to))
-					continue;
-				result += edge.cost;
-				edgeCnt++;
-				if(edgeCnt == N - 1) break;
+			
+			rowA += dr[pathA[i]];
+			colA += dc[pathA[i]];
+			rowB += dr[pathB[i]];
+			colB += dc[pathB[i]];
+			
+			for (BC bc : charges) {
+				if(bc.canCharge(rowA, colA)) {
+					
+				}
+				if(bc.canCharge(rowB, colB)) {
+					
+				}
 			}
-
-			sb.append("#").append(test_case).append(" ").append(result).append("\n");
-		}
-		System.out.print(sb);
-	}
-
-	public static void makeSet() {
-		parents = new int[N + 1];
-		for (int i = 1; i <= N; i++) {
-			parents[i] = i;
 		}
 	}
-
-	public static boolean union(int a, int b) {
-		int rootA = find(a);
-		int rootB = find(b);
-
-		if (rootA == rootB)
-			return false;
-		parents[rootA] = rootB;
-		return true;
-	}
-
-	public static int find(int a) {
-		if (a == parents[a])
-			return a;
-		return parents[a] = find(parents[a]);
+	
+	public static boolean inRange(int row, int col) {
+		return row >= 0 && row <10 && col >= 0 && col < 10;
 	}
 }
