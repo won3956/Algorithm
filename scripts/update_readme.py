@@ -224,6 +224,7 @@ for category in sorted(swea_counts):
     )
 
 
+
 # =========================
 # 3. 문제 목록 생성
 # =========================
@@ -246,26 +247,79 @@ for platform in PLATFORMS:
         lines.append("")
         continue
 
-    lines.extend([
-        "| 번호 | 문제명 | 분류 | 풀이 |",
-        "|---|---|---|---|"
-    ])
+    # SWEA와 프로그래머스만 난이도별 분류
+    if platform in {"SWEA", "프로그래머스"}:
+        grouped = defaultdict(list)
 
-    for number, info in sorted(items.items()):
-        title = clean_text(info["title"])
-        category = clean_text(info["category"])
+        for number, info in items.items():
+            grouped[info["category"]].append((number, info))
 
-        if info["path"].is_dir():
-            url = folder_url(info["path"])
+        # 난이도 순서 지정
+        if platform == "SWEA":
+            order = [
+                "D1", "D2", "D3", "D4", "D5",
+                "D6", "D7", "D8",
+                "Unrated", "A형"
+            ]
         else:
-            url = github_url(info["path"])
+            order = [
+                "Level 0", "Level 1", "Level 2",
+                "Level 3", "Level 4", "Level 5"
+            ]
 
-        lines.append(
-            f"| {number} | {title} | {category} | "
-            f"[보기]({url}) |"
+        categories = sorted(
+            grouped.keys(),
+            key=lambda c: (
+                order.index(c) if c in order else len(order),
+                c
+            )
         )
 
-    lines.append("")
+        for category in categories:
+            category_items = sorted(grouped[category])
+
+            lines.append(
+                f"#### {category} ({len(category_items)}문제)"
+            )
+            lines.append("")
+            lines.append("| 번호 | 문제명 | 풀이 |")
+            lines.append("|---|---|---|")
+
+            for number, info in category_items:
+                title = clean_text(info["title"])
+                path = info["path"]
+
+                if path.is_dir():
+                    url = folder_url(path)
+                else:
+                    url = github_url(path)
+
+                lines.append(
+                    f"| {number} | {title} | [보기]({url}) |"
+                )
+
+            lines.append("")
+
+    # 백준은 기존처럼 전체 목록 유지
+    else:
+        lines.append("| 번호 | 문제명 | 풀이 |")
+        lines.append("|---|---|---|")
+
+        for number, info in sorted(items.items()):
+            title = clean_text(info["title"])
+            path = info["path"]
+
+            if path.is_dir():
+                url = folder_url(path)
+            else:
+                url = github_url(path)
+
+            lines.append(
+                f"| {number} | {title} | [보기]({url}) |"
+            )
+
+        lines.append("")
+
 
 
 # =========================
