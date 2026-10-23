@@ -6,7 +6,7 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 84개**  
+**해결 문제: 85개**  
 **강의·실습 코드: 21개**
 
 ### 플랫폼별 문제 풀이
@@ -14,9 +14,9 @@
 | 플랫폼 | 문제 수 |
 |---|---:|
 | 백준 | 27 |
-| SWEA | 56 |
+| SWEA | 57 |
 | 프로그래머스 | 1 |
-| **합계** | **84** |
+| **합계** | **85** |
 
 ### SWEA 난이도별 현황
 
@@ -25,7 +25,7 @@
 | A형 | 1 |
 | D2 | 6 |
 | D3 | 15 |
-| D4 | 21 |
+| D4 | 22 |
 | D5 | 3 |
 | Unrated | 10 |
 
@@ -63,7 +63,7 @@
 | 17626 | 문제 17626 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main17626.java) |
 | 28278 | 문제 28278 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main28278.java) |
 
-### SWEA (56문제)
+### SWEA (57문제)
 
 #### D2 (6문제)
 
@@ -96,7 +96,7 @@
 | 27549 | 두 원소의 최대합 （M 이하） | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27549.%E2%80%85%EB%91%90%E2%80%85%EC%9B%90%EC%86%8C%EC%9D%98%E2%80%85%EC%B5%9C%EB%8C%80%ED%95%A9%E2%80%85%EF%BC%88M%E2%80%85%EC%9D%B4%ED%95%98%EF%BC%89) |
 | 27550 | 연결된 칸의 개수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27550.%E2%80%85%EC%97%B0%EA%B2%B0%EB%90%9C%E2%80%85%EC%B9%B8%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) |
 
-#### D4 (21문제)
+#### D4 (22문제)
 
 | 번호 | 문제명 | 풀이 |
 |---|---|---|
@@ -105,6 +105,7 @@
 | 1238 | ［S／W 문제해결 기본］ 10일차 － Contact | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/1238.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B8%B0%EB%B3%B8%EF%BC%BD%E2%80%8510%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85Contact) |
 | 1249 | ［S／W 문제해결 응용］ 4일차 － 보급로 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/1249.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%854%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EB%B3%B4%EA%B8%89%EB%A1%9C) |
 | 1251 | ［S／W 문제해결 응용］ 4일차 － 하나로 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/1251.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EC%9D%91%EC%9A%A9%EF%BC%BD%E2%80%854%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%ED%95%98%EB%82%98%EB%A1%9C) |
+| 1824 | 혁진이의 프로그램 검증 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/1824.%E2%80%85%ED%98%81%EC%A7%84%EC%9D%B4%EC%9D%98%E2%80%85%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8%E2%80%85%EA%B2%80%EC%A6%9D) |
 | 1861 | 정사각형 방 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/1861.%E2%80%85%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95%E2%80%85%EB%B0%A9) |
 | 1868 | 파핑파핑 지뢰찾기 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/1868.%E2%80%85%ED%8C%8C%ED%95%91%ED%8C%8C%ED%95%91%E2%80%85%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0) |
 | 3074 | 입국심사 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/3074.%20%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC) |
