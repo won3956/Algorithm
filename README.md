@@ -6,7 +6,7 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 85개**  
+**해결 문제: 86개**  
 **강의·실습 코드: 21개**
 
 ### 플랫폼별 문제 풀이
@@ -14,9 +14,9 @@
 | 플랫폼 | 문제 수 |
 |---|---:|
 | 백준 | 27 |
-| SWEA | 57 |
+| SWEA | 58 |
 | 프로그래머스 | 1 |
-| **합계** | **85** |
+| **합계** | **86** |
 
 ### SWEA 난이도별 현황
 
@@ -26,7 +26,7 @@
 | D2 | 6 |
 | D3 | 15 |
 | D4 | 22 |
-| D5 | 3 |
+| D5 | 4 |
 | Unrated | 10 |
 
 ## 해결한 문제 목록
@@ -63,7 +63,7 @@
 | 17626 | 문제 17626 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main17626.java) |
 | 28278 | 문제 28278 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main28278.java) |
 
-### SWEA (57문제)
+### SWEA (58문제)
 
 #### D2 (6문제)
 
@@ -123,12 +123,13 @@
 | 26504 | MST 만들기 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/26504.%E2%80%85MST%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0) |
 | 29882 | 풀이용．격자 경로의 수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/29882.%E2%80%85%ED%92%80%EC%9D%B4%EC%9A%A9%EF%BC%8E%EA%B2%A9%EC%9E%90%E2%80%85%EA%B2%BD%EB%A1%9C%EC%9D%98%E2%80%85%EC%88%98) |
 
-#### D5 (3문제)
+#### D5 (4문제)
 
 | 번호 | 문제명 | 풀이 |
 |---|---|---|
 | 1816 | 현호의 자물쇠 따기 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D5/1816.%E2%80%85%ED%98%84%ED%98%B8%EC%9D%98%E2%80%85%EC%9E%90%EB%AC%BC%EC%87%A0%E2%80%85%EB%94%B0%EA%B8%B0) |
 | 7793 | 오！ 나의 여신님 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D5/7793.%E2%80%85%EC%98%A4%EF%BC%81%E2%80%85%EB%82%98%EC%9D%98%E2%80%85%EC%97%AC%EC%8B%A0%EB%8B%98) |
+| 8191 | 만화책 정렬하기 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D5/8191.%E2%80%85%EB%A7%8C%ED%99%94%EC%B1%85%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0) |
 | 19118 | 언덕길 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D5/19118.%E2%80%85%EC%96%B8%EB%8D%95%EA%B8%B8) |
 
 #### Unrated (10문제)
