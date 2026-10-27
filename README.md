@@ -7,7 +7,7 @@
 ## 전체 학습 현황
 
 **해결 문제: 86개**  
-**강의·실습 코드: 21개**
+**강의·실습 코드: 22개**
 
 ### 플랫폼별 문제 풀이
 
@@ -163,13 +163,17 @@
 
 ## 강의 및 실습 기록
 
-**총 21개 소스코드 파일**
+**총 22개 소스코드 파일**
 
 ### Baekjoon 기타 실습 (3개)
 
 - [Baekjoon/c/Main.c](https://github.com/won3956/Algorithm/blob/main/Baekjoon/c/Main.c)
 - [Baekjoon/java/Solution1.java](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Solution1.java)
 - [Baekjoon/python/Main.py](https://github.com/won3956/Algorithm/blob/main/Baekjoon/python/Main.py)
+
+### Java 실습 (1개)
+
+- [Java/SWEA/D5/8191. 만화책 정렬하기/만화책 정렬하기.java](https://github.com/won3956/Algorithm/blob/main/Java/SWEA/D5/8191.%E2%80%85%EB%A7%8C%ED%99%94%EC%B1%85%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/%EB%A7%8C%ED%99%94%EC%B1%85%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0.java)
 
 ### SSAFY 실습 (2개)
 
