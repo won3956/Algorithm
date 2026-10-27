@@ -6,7 +6,7 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 86개**  
+**해결 문제: 87개**  
 **강의·실습 코드: 22개**
 
 ### 플랫폼별 문제 풀이
@@ -14,9 +14,9 @@
 | 플랫폼 | 문제 수 |
 |---|---:|
 | 백준 | 27 |
-| SWEA | 58 |
+| SWEA | 59 |
 | 프로그래머스 | 1 |
-| **합계** | **86** |
+| **합계** | **87** |
 
 ### SWEA 난이도별 현황
 
@@ -25,7 +25,7 @@
 | A형 | 1 |
 | D2 | 6 |
 | D3 | 15 |
-| D4 | 22 |
+| D4 | 23 |
 | D5 | 4 |
 | Unrated | 10 |
 
@@ -63,7 +63,7 @@
 | 17626 | 문제 17626 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main17626.java) |
 | 28278 | 문제 28278 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main28278.java) |
 
-### SWEA (58문제)
+### SWEA (59문제)
 
 #### D2 (6문제)
 
@@ -96,7 +96,7 @@
 | 27549 | 두 원소의 최대합 （M 이하） | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27549.%E2%80%85%EB%91%90%E2%80%85%EC%9B%90%EC%86%8C%EC%9D%98%E2%80%85%EC%B5%9C%EB%8C%80%ED%95%A9%E2%80%85%EF%BC%88M%E2%80%85%EC%9D%B4%ED%95%98%EF%BC%89) |
 | 27550 | 연결된 칸의 개수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27550.%E2%80%85%EC%97%B0%EA%B2%B0%EB%90%9C%E2%80%85%EC%B9%B8%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) |
 
-#### D4 (22문제)
+#### D4 (23문제)
 
 | 번호 | 문제명 | 풀이 |
 |---|---|---|
@@ -110,6 +110,7 @@
 | 1868 | 파핑파핑 지뢰찾기 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/1868.%E2%80%85%ED%8C%8C%ED%95%91%ED%8C%8C%ED%95%91%E2%80%85%EC%A7%80%EB%A2%B0%EC%B0%BE%EA%B8%B0) |
 | 3074 | 입국심사 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/3074.%20%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC) |
 | 3124 | 최소 스패닝 트리 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/3124.%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8A%A4%ED%8C%A8%EB%8B%9D%E2%80%85%ED%8A%B8%EB%A6%AC) |
+| 3752 | 가능한 시험 점수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/3752.%E2%80%85%EA%B0%80%EB%8A%A5%ED%95%9C%E2%80%85%EC%8B%9C%ED%97%98%E2%80%85%EC%A0%90%EC%88%98) |
 | 4006 | ［Professional］ 고속도로 건설 2 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/4006.%E2%80%85%EF%BC%BBProfessional%EF%BC%BD%E2%80%85%EA%B3%A0%EC%86%8D%EB%8F%84%EB%A1%9C%E2%80%85%EA%B1%B4%EC%84%A4%E2%80%852) |
 | 4366 | 정식이의 은행업무 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/4366.%E2%80%85%EC%A0%95%EC%8B%9D%EC%9D%B4%EC%9D%98%E2%80%85%EC%9D%80%ED%96%89%EC%97%85%EB%AC%B4) |
 | 4530 | 극한의 청소 작업 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/4530.%E2%80%85%EA%B7%B9%ED%95%9C%EC%9D%98%E2%80%85%EC%B2%AD%EC%86%8C%E2%80%85%EC%9E%91%EC%97%85) |
