@@ -6,7 +6,7 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 87개**  
+**해결 문제: 88개**  
 **강의·실습 코드: 22개**
 
 ### 플랫폼별 문제 풀이
@@ -14,9 +14,9 @@
 | 플랫폼 | 문제 수 |
 |---|---:|
 | 백준 | 27 |
-| SWEA | 59 |
+| SWEA | 60 |
 | 프로그래머스 | 1 |
-| **합계** | **87** |
+| **합계** | **88** |
 
 ### SWEA 난이도별 현황
 
@@ -25,7 +25,7 @@
 | A형 | 1 |
 | D2 | 6 |
 | D3 | 15 |
-| D4 | 23 |
+| D4 | 24 |
 | D5 | 4 |
 | Unrated | 10 |
 
@@ -63,7 +63,7 @@
 | 17626 | 문제 17626 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main17626.java) |
 | 28278 | 문제 28278 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main28278.java) |
 
-### SWEA (59문제)
+### SWEA (60문제)
 
 #### D2 (6문제)
 
@@ -96,7 +96,7 @@
 | 27549 | 두 원소의 최대합 （M 이하） | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27549.%E2%80%85%EB%91%90%E2%80%85%EC%9B%90%EC%86%8C%EC%9D%98%E2%80%85%EC%B5%9C%EB%8C%80%ED%95%A9%E2%80%85%EF%BC%88M%E2%80%85%EC%9D%B4%ED%95%98%EF%BC%89) |
 | 27550 | 연결된 칸의 개수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27550.%E2%80%85%EC%97%B0%EA%B2%B0%EB%90%9C%E2%80%85%EC%B9%B8%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) |
 
-#### D4 (23문제)
+#### D4 (24문제)
 
 | 번호 | 문제명 | 풀이 |
 |---|---|---|
@@ -115,6 +115,7 @@
 | 4366 | 정식이의 은행업무 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/4366.%E2%80%85%EC%A0%95%EC%8B%9D%EC%9D%B4%EC%9D%98%E2%80%85%EC%9D%80%ED%96%89%EC%97%85%EB%AC%B4) |
 | 4530 | 극한의 청소 작업 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/4530.%E2%80%85%EA%B7%B9%ED%95%9C%EC%9D%98%E2%80%85%EC%B2%AD%EC%86%8C%E2%80%85%EC%9E%91%EC%97%85) |
 | 5249 | ［S／W 문제해결 구현］ 7일차 － 최소 신장 트리 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/5249.%E2%80%85%EF%BC%BBS%EF%BC%8FW%E2%80%85%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%E2%80%85%EA%B5%AC%ED%98%84%EF%BC%BD%E2%80%857%EC%9D%BC%EC%B0%A8%E2%80%85%EF%BC%8D%E2%80%85%EC%B5%9C%EC%86%8C%E2%80%85%EC%8B%A0%EC%9E%A5%E2%80%85%ED%8A%B8%EB%A6%AC) |
+| 7338 | 현규의 연봉계산법 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/7338.%E2%80%85%ED%98%84%EA%B7%9C%EC%9D%98%E2%80%85%EC%97%B0%EB%B4%89%EA%B3%84%EC%82%B0%EB%B2%95) |
 | 7465 | 창용 마을 무리의 개수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/7465.%E2%80%85%EC%B0%BD%EC%9A%A9%E2%80%85%EB%A7%88%EC%9D%84%E2%80%85%EB%AC%B4%EB%A6%AC%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) |
 | 7733 | 치즈 도둑 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/7733.%E2%80%85%EC%B9%98%EC%A6%88%E2%80%85%EB%8F%84%EB%91%91) |
 | 8275 | 햄스터 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/8275.%E2%80%85%ED%96%84%EC%8A%A4%ED%84%B0) |
