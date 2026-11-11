@@ -6,7 +6,7 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 89개**  
+**해결 문제: 90개**  
 **강의·실습 코드: 22개**
 
 ### 플랫폼별 문제 풀이
@@ -14,9 +14,9 @@
 | 플랫폼 | 문제 수 |
 |---|---:|
 | 백준 | 27 |
-| SWEA | 60 |
+| SWEA | 61 |
 | 프로그래머스 | 2 |
-| **합계** | **89** |
+| **합계** | **90** |
 
 ### SWEA 난이도별 현황
 
@@ -25,7 +25,7 @@
 | A형 | 1 |
 | D2 | 6 |
 | D3 | 15 |
-| D4 | 24 |
+| D4 | 25 |
 | D5 | 4 |
 | Unrated | 10 |
 
@@ -63,7 +63,7 @@
 | 17626 | 문제 17626 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main17626.java) |
 | 28278 | 문제 28278 | [보기](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Main28278.java) |
 
-### SWEA (60문제)
+### SWEA (61문제)
 
 #### D2 (6문제)
 
@@ -96,7 +96,7 @@
 | 27549 | 두 원소의 최대합 （M 이하） | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27549.%E2%80%85%EB%91%90%E2%80%85%EC%9B%90%EC%86%8C%EC%9D%98%E2%80%85%EC%B5%9C%EB%8C%80%ED%95%A9%E2%80%85%EF%BC%88M%E2%80%85%EC%9D%B4%ED%95%98%EF%BC%89) |
 | 27550 | 연결된 칸의 개수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D3/27550.%E2%80%85%EC%97%B0%EA%B2%B0%EB%90%9C%E2%80%85%EC%B9%B8%EC%9D%98%E2%80%85%EA%B0%9C%EC%88%98) |
 
-#### D4 (24문제)
+#### D4 (25문제)
 
 | 번호 | 문제명 | 풀이 |
 |---|---|---|
@@ -121,6 +121,7 @@
 | 8275 | 햄스터 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/8275.%E2%80%85%ED%96%84%EC%8A%A4%ED%84%B0) |
 | 8382 | 방향 전환 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/8382.%E2%80%85%EB%B0%A9%ED%96%A5%E2%80%85%EC%A0%84%ED%99%98) |
 | 9088 | 다이아몬드 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/9088.%E2%80%85%EB%8B%A4%EC%9D%B4%EC%95%84%EB%AA%AC%EB%93%9C) |
+| 11592 | 크루즈 컨트롤 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/11592.%E2%80%85%ED%81%AC%EB%A3%A8%EC%A6%88%E2%80%85%EC%BB%A8%ED%8A%B8%EB%A1%A4) |
 | 12052 | 부서진 타일 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/12052.%20%EB%B6%80%EC%84%9C%EC%A7%84%E2%80%85%ED%83%80%EC%9D%BC) |
 | 26504 | MST 만들기 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/26504.%E2%80%85MST%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0) |
 | 29882 | 풀이용．격자 경로의 수 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/D4/29882.%E2%80%85%ED%92%80%EC%9D%B4%EC%9A%A9%EF%BC%8E%EA%B2%A9%EC%9E%90%E2%80%85%EA%B2%BD%EB%A1%9C%EC%9D%98%E2%80%85%EC%88%98) |
