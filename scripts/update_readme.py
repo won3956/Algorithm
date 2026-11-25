@@ -60,7 +60,10 @@ def parse_folder(folder):
 
 def add_problem(platform, number, title, category, path):
     """문제번호 기준 중복 제거"""
-    if number not in problems[platform]:
+    existing = problems[platform].get(number)
+    if existing is None or (
+        platform == "Baekjoon" and path.is_dir() and existing["path"].is_file()
+    ):
         problems[platform][number] = {
             "title": title,
             "category": category,
@@ -94,7 +97,22 @@ for file in sorted(ROOT.rglob("*")):
     # ---------------------
     # Baekjoon
     # ---------------------
-    if top == "Baekjoon":
+    if top == "백준":
+        # 백준/Silver/1003. 피보나치 함수/...
+        parsed = parse_folder(parts[2]) if len(parts) >= 4 else None
+        if parsed:
+            number, title = parsed
+            add_problem(
+                "Baekjoon",
+                number,
+                title,
+                parts[1],
+                ROOT.joinpath(*parts[:3])
+            )
+        else:
+            add_practice("Baekjoon 기타 실습", file)
+
+    elif top == "Baekjoon":
         # Main1003.java, Main9095_2.java
         match = re.match(r"^Main(\d+)(?:_.*)?$", file.stem)
 

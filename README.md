@@ -6,17 +6,17 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 64개**  
-**강의·실습 코드: 51개**
+**해결 문제: 94개**  
+**강의·실습 코드: 19개**
 
 ### 플랫폼별 문제 풀이
 
 | 플랫폼 | 문제 수 |
 |---|---:|
-| 백준 | 0 |
+| 백준 | 30 |
 | SWEA | 62 |
 | 프로그래머스 | 2 |
-| **합계** | **64** |
+| **합계** | **94** |
 
 ### SWEA 난이도별 현황
 
@@ -31,9 +31,40 @@
 
 ## 해결한 문제 목록
 
-### 백준 (0문제)
+### 백준 (30문제)
 
-등록된 문제가 없습니다.
+| 번호 | 문제명 | 풀이 |
+|---|---|---|
+| 1003 | 피보나치 함수 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/1003.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%ED%95%A8%EC%88%98) |
+| 1005 | ACM Craft | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold/1005.%E2%80%85ACM%E2%80%85Craft) |
+| 1012 | 유기농 배추 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/1012.%E2%80%85%EC%9C%A0%EA%B8%B0%EB%86%8D%E2%80%85%EB%B0%B0%EC%B6%94) |
+| 1260 | DFS와 BFS | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/1260.%E2%80%85DFS%EC%99%80%E2%80%85BFS) |
+| 1463 | 1로 만들기 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/1463.%E2%80%851%EB%A1%9C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0) |
+| 1620 | 나는야 포켓몬 마스터 이다솜 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/1620.%E2%80%85%EB%82%98%EB%8A%94%EC%95%BC%E2%80%85%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85%EB%A7%88%EC%8A%A4%ED%84%B0%E2%80%85%EC%9D%B4%EB%8B%A4%EC%86%9C) |
+| 1764 | 듣보잡 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1) |
+| 2579 | 계단 오르기 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/2579.%E2%80%85%EA%B3%84%EB%8B%A8%E2%80%85%EC%98%A4%EB%A5%B4%EA%B8%B0) |
+| 2606 | 바이러스 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/2606.%E2%80%85%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4) |
+| 2750 | 수 정렬하기 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Bronze/2750.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0) |
+| 2798 | 블랙잭 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Bronze/2798.%E2%80%85%EB%B8%94%EB%9E%99%EC%9E%AD) |
+| 3020 | 개똥벌레 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold/3020.%E2%80%85%EA%B0%9C%EB%98%A5%EB%B2%8C%EB%A0%88) |
+| 4949 | 균형잡힌 세상 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/4949.%E2%80%85%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C%E2%80%85%EC%84%B8%EC%83%81) |
+| 5086 | 배수와 약수 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Bronze/5086.%E2%80%85%EB%B0%B0%EC%88%98%EC%99%80%E2%80%85%EC%95%BD%EC%88%98) |
+| 9012 | 괄호 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/9012.%E2%80%85%EA%B4%84%ED%98%B8) |
+| 9095 | 1, 2, 3 더하기 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/9095.%E2%80%851%2C%E2%80%852%2C%E2%80%853%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0) |
+| 9375 | 패션왕 신해빈 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/9375.%E2%80%85%ED%8C%A8%EC%85%98%EC%99%95%E2%80%85%EC%8B%A0%ED%95%B4%EB%B9%88) |
+| 9461 | 파도반 수열 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/9461.%E2%80%85%ED%8C%8C%EB%8F%84%EB%B0%98%E2%80%85%EC%88%98%EC%97%B4) |
+| 10773 | 제로 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/10773.%E2%80%85%EC%A0%9C%EB%A1%9C) |
+| 11047 | 동전 0 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/11047.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%850) |
+| 11399 | ATM | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/11399.%E2%80%85ATM) |
+| 11659 | 구간 합 구하기 4 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/11659.%E2%80%85%EA%B5%AC%EA%B0%84%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%E2%80%854) |
+| 11723 | 집합 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/11723.%E2%80%85%EC%A7%91%ED%95%A9) |
+| 11726 | 2×n 타일링 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/11726.%E2%80%852%C3%97n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81) |
+| 11727 | 2×n 타일링 2 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/11727.%E2%80%852%C3%97n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81%E2%80%852) |
+| 12789 | 도키도키 간식드리미 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/12789.%E2%80%85%EB%8F%84%ED%82%A4%EB%8F%84%ED%82%A4%E2%80%85%EA%B0%84%EC%8B%9D%EB%93%9C%EB%A6%AC%EB%AF%B8) |
+| 15686 | 치킨 배달 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold/15686.%E2%80%85%EC%B9%98%ED%82%A8%E2%80%85%EB%B0%B0%EB%8B%AC) |
+| 17219 | 비밀번호 찾기 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/17219.%E2%80%85%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%E2%80%85%EC%B0%BE%EA%B8%B0) |
+| 17626 | Four Squares | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/17626.%E2%80%85Four%E2%80%85Squares) |
+| 28278 | 스택 2 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/28278.%E2%80%85%EC%8A%A4%ED%83%9D%E2%80%852) |
 
 ### SWEA (62문제)
 
@@ -145,7 +176,7 @@
 
 ## 강의 및 실습 기록
 
-**총 51개 소스코드 파일**
+**총 19개 소스코드 파일**
 
 ### Java 실습 (1개)
 
@@ -180,41 +211,6 @@
 ### SWEA/기타 (1개)
 
 - [SWEA/Solution.java](https://github.com/won3956/Algorithm/blob/main/SWEA/Solution.java)
-
-### 백준 실습 (32개)
-
-- [백준/Bronze/2750. 수 정렬하기/Main2750.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Bronze/2750.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0/Main2750.java)
-- [백준/Bronze/2798. 블랙잭/Main2798.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Bronze/2798.%E2%80%85%EB%B8%94%EB%9E%99%EC%9E%AD/Main2798.java)
-- [백준/Bronze/5086. 배수와 약수/Main5086.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Bronze/5086.%E2%80%85%EB%B0%B0%EC%88%98%EC%99%80%E2%80%85%EC%95%BD%EC%88%98/Main5086.java)
-- [백준/Gold/1005. ACM Craft/ACM Craft.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/1005.%E2%80%85ACM%E2%80%85Craft/ACM%E2%80%85Craft.java)
-- [백준/Gold/15686. 치킨 배달/치킨 배달.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/15686.%E2%80%85%EC%B9%98%ED%82%A8%E2%80%85%EB%B0%B0%EB%8B%AC/%EC%B9%98%ED%82%A8%E2%80%85%EB%B0%B0%EB%8B%AC.java)
-- [백준/Gold/3020. 개똥벌레/개똥벌레.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/3020.%E2%80%85%EA%B0%9C%EB%98%A5%EB%B2%8C%EB%A0%88/%EA%B0%9C%EB%98%A5%EB%B2%8C%EB%A0%88.java)
-- [백준/Silver/1003. 피보나치 함수/Main1003.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1003.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%ED%95%A8%EC%88%98/Main1003.java)
-- [백준/Silver/1003. 피보나치 함수/피보나치 함수.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1003.%E2%80%85%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%ED%95%A8%EC%88%98/%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98%E2%80%85%ED%95%A8%EC%88%98.java)
-- [백준/Silver/1012. 유기농 배추/Main1012.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1012.%E2%80%85%EC%9C%A0%EA%B8%B0%EB%86%8D%E2%80%85%EB%B0%B0%EC%B6%94/Main1012.java)
-- [백준/Silver/10773. 제로/Main10773.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/10773.%E2%80%85%EC%A0%9C%EB%A1%9C/Main10773.java)
-- [백준/Silver/11047. 동전 0/Main11047.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/11047.%E2%80%85%EB%8F%99%EC%A0%84%E2%80%850/Main11047.java)
-- [백준/Silver/11399. ATM/Main11399.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/11399.%E2%80%85ATM/Main11399.java)
-- [백준/Silver/11659. 구간 합 구하기 4/Main11659.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/11659.%E2%80%85%EA%B5%AC%EA%B0%84%E2%80%85%ED%95%A9%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0%E2%80%854/Main11659.java)
-- [백준/Silver/11723. 집합/Main11723.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/11723.%E2%80%85%EC%A7%91%ED%95%A9/Main11723.java)
-- [백준/Silver/11726. 2×n 타일링/Main11726.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/11726.%E2%80%852%C3%97n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81/Main11726.java)
-- [백준/Silver/11727. 2×n 타일링 2/Main11727.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/11727.%E2%80%852%C3%97n%E2%80%85%ED%83%80%EC%9D%BC%EB%A7%81%E2%80%852/Main11727.java)
-- [백준/Silver/1260. DFS와 BFS/Main1260.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1260.%E2%80%85DFS%EC%99%80%E2%80%85BFS/Main1260.java)
-- [백준/Silver/12789. 도키도키 간식드리미/Main12789.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/12789.%E2%80%85%EB%8F%84%ED%82%A4%EB%8F%84%ED%82%A4%E2%80%85%EA%B0%84%EC%8B%9D%EB%93%9C%EB%A6%AC%EB%AF%B8/Main12789.java)
-- [백준/Silver/1463. 1로 만들기/Main1463.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1463.%E2%80%851%EB%A1%9C%E2%80%85%EB%A7%8C%EB%93%A4%EA%B8%B0/Main1463.java)
-- [백준/Silver/1620. 나는야 포켓몬 마스터 이다솜/Main1620.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1620.%E2%80%85%EB%82%98%EB%8A%94%EC%95%BC%E2%80%85%ED%8F%AC%EC%BC%93%EB%AA%AC%E2%80%85%EB%A7%88%EC%8A%A4%ED%84%B0%E2%80%85%EC%9D%B4%EB%8B%A4%EC%86%9C/Main1620.java)
-- [백준/Silver/17219. 비밀번호 찾기/Main17219.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/17219.%E2%80%85%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8%E2%80%85%EC%B0%BE%EA%B8%B0/Main17219.java)
-- [백준/Silver/17626. Four Squares/Main17626.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/17626.%E2%80%85Four%E2%80%85Squares/Main17626.java)
-- [백준/Silver/1764. 듣보잡/Main1764.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/1764.%E2%80%85%EB%93%A3%EB%B3%B4%EC%9E%A1/Main1764.java)
-- [백준/Silver/2579. 계단 오르기/Main2579.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/2579.%E2%80%85%EA%B3%84%EB%8B%A8%E2%80%85%EC%98%A4%EB%A5%B4%EA%B8%B0/Main2579.java)
-- [백준/Silver/2606. 바이러스/Main2606.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/2606.%E2%80%85%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4/Main2606.java)
-- [백준/Silver/28278. 스택 2/Main28278.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/28278.%E2%80%85%EC%8A%A4%ED%83%9D%E2%80%852/Main28278.java)
-- [백준/Silver/4949. 균형잡힌 세상/Main4949.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/4949.%E2%80%85%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C%E2%80%85%EC%84%B8%EC%83%81/Main4949.java)
-- [백준/Silver/9012. 괄호/Main9012.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/9012.%E2%80%85%EA%B4%84%ED%98%B8/Main9012.java)
-- [백준/Silver/9095. 1, 2, 3 더하기/Main9095.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/9095.%E2%80%851%2C%E2%80%852%2C%E2%80%853%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0/Main9095.java)
-- [백준/Silver/9095. 1, 2, 3 더하기/Main9095_2.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/9095.%E2%80%851%2C%E2%80%852%2C%E2%80%853%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0/Main9095_2.java)
-- [백준/Silver/9375. 패션왕 신해빈/Main9375.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/9375.%E2%80%85%ED%8C%A8%EC%85%98%EC%99%95%E2%80%85%EC%8B%A0%ED%95%B4%EB%B9%88/Main9375.java)
-- [백준/Silver/9461. 파도반 수열/Main9461.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Silver/9461.%E2%80%85%ED%8C%8C%EB%8F%84%EB%B0%98%E2%80%85%EC%88%98%EC%97%B4/Main9461.java)
 
 <!-- SOLVED_END -->
 

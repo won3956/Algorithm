@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'Baekjoon/**'
+      - '백준/**'
       - 'SWEA/**'
       - 'SSAFY/**'
       - '프로그래머스/**'
