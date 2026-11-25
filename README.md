@@ -6,7 +6,7 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 97개**  
+**해결 문제: 99개**  
 **강의·실습 코드: 19개**
 
 ### 플랫폼별 문제 풀이
@@ -15,8 +15,8 @@
 |---|---:|
 | 백준 | 30 |
 | SWEA | 62 |
-| 프로그래머스 | 5 |
-| **합계** | **97** |
+| 프로그래머스 | 7 |
+| **합계** | **99** |
 
 ### SWEA 난이도별 현황
 
@@ -160,13 +160,14 @@
 |---|---|---|
 | 27755 | 해저 양식 로봇 | [보기](https://github.com/won3956/Algorithm/tree/main/SWEA/A%ED%98%95/27755.%20%ED%95%B4%EC%A0%80%20%EC%96%91%EC%8B%9D%20%EB%A1%9C%EB%B4%87) |
 
-### 프로그래머스 (5문제)
+### 프로그래머스 (7문제)
 
-#### Level 1 (2문제)
+#### Level 1 (3문제)
 
 | 번호 | 문제명 | 풀이 |
 |---|---|---|
 | 64061 | 크레인 인형뽑기 게임 | [보기](https://github.com/won3956/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/64061.%E2%80%85%ED%81%AC%EB%A0%88%EC%9D%B8%E2%80%85%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%E2%80%85%EA%B2%8C%EC%9E%84) |
+| 161990 | 바탕화면 정리 | [보기](https://github.com/won3956/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/161990.%E2%80%85%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4%E2%80%85%EC%A0%95%EB%A6%AC) |
 | 468371 | 노란불 신호등 | [보기](https://github.com/won3956/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/468371.%E2%80%85%EB%85%B8%EB%9E%80%EB%B6%88%E2%80%85%EC%8B%A0%ED%98%B8%EB%93%B1) |
 
 #### Level 2 (2문제)
@@ -175,6 +176,12 @@
 |---|---|---|
 | 42860 | 조이스틱 | [보기](https://github.com/won3956/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42860.%E2%80%85%EC%A1%B0%EC%9D%B4%EC%8A%A4%ED%8B%B1) |
 | 389480 | 완전범죄 | [보기](https://github.com/won3956/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/389480.%E2%80%85%EC%99%84%EC%A0%84%EB%B2%94%EC%A3%84) |
+
+#### Level 3 (1문제)
+
+| 번호 | 문제명 | 풀이 |
+|---|---|---|
+| 87694 | 아이템 줍기 | [보기](https://github.com/won3956/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/3/87694.%E2%80%85%EC%95%84%EC%9D%B4%ED%85%9C%E2%80%85%EC%A4%8D%EA%B8%B0) |
 
 #### Level 4 (1문제)
 
