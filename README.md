@@ -7,7 +7,7 @@
 ## 전체 학습 현황
 
 **해결 문제: 91개**  
-**강의·실습 코드: 22개**
+**강의·실습 코드: 23개**
 
 ### 플랫폼별 문제 풀이
 
@@ -173,13 +173,11 @@
 
 ## 강의 및 실습 기록
 
-**총 22개 소스코드 파일**
+**총 23개 소스코드 파일**
 
-### Baekjoon 기타 실습 (3개)
+### Baekjoon 기타 실습 (1개)
 
-- [Baekjoon/c/Main.c](https://github.com/won3956/Algorithm/blob/main/Baekjoon/c/Main.c)
 - [Baekjoon/java/Solution1.java](https://github.com/won3956/Algorithm/blob/main/Baekjoon/java/Solution1.java)
-- [Baekjoon/python/Main.py](https://github.com/won3956/Algorithm/blob/main/Baekjoon/python/Main.py)
 
 ### Java 실습 (1개)
 
@@ -214,6 +212,12 @@
 ### SWEA/기타 (1개)
 
 - [SWEA/Solution.java](https://github.com/won3956/Algorithm/blob/main/SWEA/Solution.java)
+
+### 백준 실습 (3개)
+
+- [백준/Gold/1005. ACM Craft/ACM Craft.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/1005.%E2%80%85ACM%E2%80%85Craft/ACM%E2%80%85Craft.java)
+- [백준/Gold/15686. 치킨 배달/치킨 배달.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/15686.%E2%80%85%EC%B9%98%ED%82%A8%E2%80%85%EB%B0%B0%EB%8B%AC/%EC%B9%98%ED%82%A8%E2%80%85%EB%B0%B0%EB%8B%AC.java)
+- [백준/Gold/3020. 개똥벌레/개똥벌레.java](https://github.com/won3956/Algorithm/blob/main/%EB%B0%B1%EC%A4%80/Gold/3020.%E2%80%85%EA%B0%9C%EB%98%A5%EB%B2%8C%EB%A0%88/%EA%B0%9C%EB%98%A5%EB%B2%8C%EB%A0%88.java)
 
 <!-- SOLVED_END -->
 
