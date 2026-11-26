@@ -6,17 +6,17 @@
 
 ## 전체 학습 현황
 
-**해결 문제: 101개**  
+**해결 문제: 102개**  
 **강의·실습 코드: 19개**
 
 ### 플랫폼별 문제 풀이
 
 | 플랫폼 | 문제 수 |
 |---|---:|
-| 백준 | 30 |
+| 백준 | 31 |
 | SWEA | 62 |
 | 프로그래머스 | 9 |
-| **합계** | **101** |
+| **합계** | **102** |
 
 ### SWEA 난이도별 현황
 
@@ -31,7 +31,7 @@
 
 ## 해결한 문제 목록
 
-### 백준 (30문제)
+### 백준 (31문제)
 
 | 번호 | 문제명 | 풀이 |
 |---|---|---|
@@ -47,6 +47,7 @@
 | 2750 | 수 정렬하기 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Bronze/2750.%E2%80%85%EC%88%98%E2%80%85%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0) |
 | 2798 | 블랙잭 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Bronze/2798.%E2%80%85%EB%B8%94%EB%9E%99%EC%9E%AD) |
 | 3020 | 개똥벌레 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold/3020.%E2%80%85%EA%B0%9C%EB%98%A5%EB%B2%8C%EB%A0%88) |
+| 4195 | 친구 네트워크 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Gold/4195.%E2%80%85%EC%B9%9C%EA%B5%AC%E2%80%85%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC) |
 | 4949 | 균형잡힌 세상 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/4949.%E2%80%85%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C%E2%80%85%EC%84%B8%EC%83%81) |
 | 5086 | 배수와 약수 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Bronze/5086.%E2%80%85%EB%B0%B0%EC%88%98%EC%99%80%E2%80%85%EC%95%BD%EC%88%98) |
 | 9012 | 괄호 | [보기](https://github.com/won3956/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/9012.%E2%80%85%EA%B4%84%ED%98%B8) |
